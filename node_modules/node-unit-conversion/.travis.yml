@@ -1,0 +1,13 @@
+language: nodejs
+node_js:
+- '6'
+before_script:
+- npm install -g npm@'>=3'
+- npm install -g nodeunit
+- npm install
+script: nodeunit
+deploy:
+  provider: npm
+  email: teodormatis@gmail.com
+  api_key:
+    secure: T8UvizsJlKJZU7PsI+FV3hji4U8zFv/f57mpv6GCNvSozMEoJhAvIglPFmZzPjjr9MrPxpHiTA/5zUvl8a7L5q4GMQgWCaTKsQE3qzkZja/FvCHC44rkJB9N31+grgN1JcTYUG/+umhqKw/3iY64f/g4rs1jKwkVUdr+SHmr418I+RmTOloWuUNR3lyZj58DzYtNvndhRtuFnC0LKjfDK6yqd76DECjqgBvyCq+qGjHoBMM7BAyKYO3upifwY3d9os5VqHfoOX2HsCGZojbzifK+IHzfRIiZhi8oLF+kQz57BcgLdfdpLmxJodONg4Ti4/EnHjAtUrm0O1awAu270JTLl3ZweWpZmbl+os/cKRpWh3JjA0YPAkrykn5za1rjHirbPKdObkcUpY6j54ZVVvExaEG37hLcSnbX0QNfuLgnBMEWo2LhiXu4dpoWnaCutx7RBHYxrwrVe+kOhf19dajF0tbY2LRYGQvPV8cGe5rFxD8iCcCC8FL5jpwpJtAh40s1iYTmhQ8Ld4t3SebvBWVOB6YehsOj/C1yoPF917xLNW8vkuxQCk3pLUmBKuHh54c1DAqJMc+a4r9qRMZm2gATJucvlmBN84B4dDo2x6X2by2hOUY0Prs1hAKdqbo5xtVVpv0NNU/uyWbJ9ZjZadEHAqaAanPcU4s848i+NvA=

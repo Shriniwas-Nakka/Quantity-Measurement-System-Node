@@ -1,0 +1,32 @@
+module.exports = {
+	"us point": { system: "us customary", measures: "length", "unit": "p", "value": 0.000352777778 },
+	"us pica":  { system: "us customary", measures: "length", "unit": "P", "value": 0.004233333 },
+	"us inch": { system: "us customary", measures: "length", "unit": "in", "value": 0.0254 },
+	"us foot": { system: "us customary", measures: "length", "unit": "ft", "value": 0.3048 },
+	"us yard": { system: "us customary", measures: "length", "unit": "yd", "value": 0.9144 },
+	"us mile": { system: "us customary", measures: "length", "unit": "mi", "value": 1609.344 },
+
+	"us link": { system: "us customary", measures: "length", "unit": "li", "value": 0.2012 },
+	"us foot (survey)": { system: "us customary", measures: "length", "unit": "ft", "value": 0.30480061 },
+	"us rod": { system: "us customary", measures: "length", "unit": "rd", "value": 5.02921 },
+	"us chain": { system: "us customary", measures: "length", "unit": "ch", "value": 20.11684 },
+	"us furlong": { system: "us customary", measures: "length", "unit": "fur", "value": 201.1684 },
+	"us mile (survey)": { system: "us customary", measures: "length", "unit": "mi", "value": 1609.347 },
+	"us league": { system: "us customary", measures: "length", "unit": "lea", "value": 4828.042 },
+
+	"us fathom": { system: "us customary", measures: "length", "unit": "ftm", "value": 1.8288 },
+	"us cable": { system: "us customary", measures: "length", "unit": "cb", "value": 219.456 },
+	"us nautical mile": { system: "us customary", measures: "length", "unit": "nmi", "value": 1852 },
+
+	"us grain": { system: "us customary", measures: "mass", "unit": "gr", "value": 0.06479891 },
+	"us dram": { system: "us customary", measures: "mass", "unit": "dr", "value": 1.7718451953125 },
+	"us ounce": { system: "us customary", measures: "mass", "unit": "oz", "value": 28.349523125 },
+	"us pound": { system: "us customary", measures: "mass", "unit": "lb", "value": 453.59237 },
+	"us hundredweight": { system: "us customary", measures: "mass", "unit": "cwt", "value": 45359.237 },
+	"us long hundredweight": { system: "us customary", measures: "mass", "unit": "long hundredweight", "value": 50802.34544 },
+	"us ton": { system: "us customary", measures: "mass", "unit": "short ton", "value": 907184.74 },
+	"us long ton":{ system: "us customary", measures: "mass", "unit": "long ton", "value": 1016046.9088 },
+	"us pennyweight":{ system: "us customary", measures: "mass", "unit": "dwt", "value": 1.55517384},
+	"us troy ounce": { system: "us customary", measures: "mass", "unit": "oz t", "value": 31.1034768 },
+	"us troy pound": { system: "us customary", measures: "mass", "unit": "lb t", "value": 373.2417216 },
+}
