@@ -1,9 +1,7 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const controller = require('../controller/controller');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Quantity Measurement' });
-});
+router.get('/length', controller.unitMeasurementController);
 
 module.exports = router;
